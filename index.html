@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: contain; 
+      border-radius: 5px;
+      display: block;
+    }
+    .gallery > img {
+      flex: 1 1 30%;
+      max-width: 32%;
+      min-width: 200px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+<div style="height: 50px;"> </div>
+  <div class="container">
+    <div class="gallery">
+      <a href="Portfolio1.jpg"><img src="Portfolio1.jpg" alt="Photo 1"></a>
+      <a href="Portfolio2.jpg"><img src="Portfolio2.jpg" alt="Photo 2"></a>
+      <a href="Portfolio3.jpg"><img src="Portfolio3.jpg" alt="Photo 3"></a>
+      <a href="Portfolio4.jpg"><img src="Portfolio4.jpg" alt="Photo 4"></a>
+      <a href="Portfolio5.jpg"><img src="Portfolio5.jpg" alt="Photo 5"></a>
+      <a href="Portfolio6.jpg"><img src="Portfolio6.jpg" alt="Photo 6"></a>
+      <a href="Portfolio7.jpg"><img src="Portfolio7.jpg" alt="Photo 7"></a>
+      <a href="Portfolio8.jpg"><img src="Portfolio8.jpg" alt="Photo 8"></a>
+      <a href="Portfolio9.jpg"><img src="Portfolio9.jpg" alt="Photo 9"></a>
+      <a href="Portfolio10.jpg"><img src="Portfolio10.jpg" alt="Photo 10"></a>
+      <a href="Portfolio11.jpg"><img src="Portfolio11.jpg" alt="Photo 11"></a>
+      <a href="Portfolio12.jpg"><img src="Portfolio12.jpg" alt="Photo 12"></a>
+      <a href="Portfolio13.jpg"><img src="Portfolio13.jpg" alt="Photo 13"></a>
+    </div>
+  </div>
+
+  <footer>
+    <p style="margin:0; line-height: 2px; font-size: 0.9rem;">&copy; Simon Hajduk</p>
+  </footer>
+
+</body>
+</html>
